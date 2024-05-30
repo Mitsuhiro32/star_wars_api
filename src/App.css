@@ -1,8 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+.logo{
+  max-width: 200px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +46,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.search form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search select, .search input{
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search button{
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: #FFE81F;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+}
+
+.error img{
+  max-width: 200px;
+}
+
+l-bouncy{
+  margin-top: 50px;
 }
